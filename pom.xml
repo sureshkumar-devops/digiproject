@@ -39,7 +39,7 @@
 	  <configuration>
 		  <url>http://localhost:8090/manager/text</url>
 		  <server>TomcatServer</server>
-		  <path>/digiproject-webapp</path>
+		  <path>/slave-maven-job</path>
           </configuration>
         </plugin>
         <plugin>
