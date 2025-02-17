@@ -39,7 +39,7 @@
 	  <configuration>
 		  <url>http://localhost:8090/manager/text</url>
 		  <server>TomcatServer</server>
-		  <path>/slave-maven-job</path>
+		  <path>/</path>
           </configuration>
         </plugin>
         <plugin>
