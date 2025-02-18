@@ -72,18 +72,18 @@
           <version>3.1.2</version>
         </plugin>
       </plugins>
-    </pluginManagement>
-   <distributionManagement>
- <repository>
-   <id>digiproject</id>
-   <name>digiproject-release</name>
-   <url>http://localhost:8081/repository/digitproject-hosted-release/</url>
- </repository>
- <snapshotRepository>
-   <id>digiproject</id>
-   <name>digiproject-snapshot</name>
-   <url>http://localhost:8081/repository/digitproject-hosted-snapshot/</url>
- </snapshotRepository>
- </distributionManagement>
+    </pluginManagement>   
   </build>
+  <distributionManagement>
+    <repository>
+      <id>digiproject</id>
+      <name>digiproject-release</name>
+      <url>http://localhost:8081/repository/digitproject-hosted-release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>digiproject</id>
+      <name>digiproject-snapshot</name>
+      <url>http://localhost:8081/repository/digitproject-hosted-snapshot/</url>     
+    </snapshotRepository>
+  </distributionManagement>
 </project>
