@@ -30,7 +30,14 @@
   <build>
     <finalName>digiproject</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-    <plugins>        
+    <plugins>  
+     <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>7.0.2.4839</version>
+      </plugin>
+
+
         <plugin>
           <groupId>org.apache.tomcat.maven</groupId>
 	  <artifactId>tomcat7-maven-plugin</artifactId>
